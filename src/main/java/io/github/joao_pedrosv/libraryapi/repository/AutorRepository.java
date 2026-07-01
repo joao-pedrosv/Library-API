@@ -1,0 +1,9 @@
+package main.java.io.github.joao_pedrosv.libraryapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import io.github.joao_pedrosv.libraryapi.model.Autor;
+
+import java.util.UUID;
+
+public interface AutorRepository extends JpaRepository<Autor, UUID> {
+}
